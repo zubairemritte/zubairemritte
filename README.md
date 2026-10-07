@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-compact.svg">
-  <img src="assets/hero.svg" width="100%" alt="Zubair Emritte — Data Scientist & Analyst. Data science, with business in mind.">
+  <source media="(max-width: 600px)" srcset="assets/hero-compact.svg?v=20261007">
+  <img src="assets/hero.svg?v=20261007" width="100%" alt="Zubair Emritte — Data Scientist & Analyst. Data science, with business in mind.">
 </picture>
 
 <p align="center">
@@ -43,7 +43,7 @@ Built multi-source ETL workflows, **Power BI models and DAX measures**, with che
 
 Five independent data products exploring labour markets, financial indicators, pricing, transaction networks and reliable infrastructure. **Product briefs are available; implementation starts with CareerGraph Europe.** Demos and results will be added as the projects are delivered.
 
-<a href="docs/projects/careergraph-europe.md"><img src="assets/careergraph.svg" width="100%" alt="01 — CareerGraph Europe. Job market and skills intelligence. First planned build; product brief available."></a>
+<a href="docs/projects/careergraph-europe.md"><img src="assets/careergraph.svg?v=20261007" width="100%" alt="01 — CareerGraph Europe. Job market and skills intelligence. First planned build; product brief available."></a>
 
 **CareerGraph Europe** — Which skills are employers asking for, and how does a candidate's profile compare? A planned platform combining job-data pipelines, skill extraction, market analysis and an explainable CV-to-market comparison.  
 **Target stack:** Python · SQL · BigQuery · dbt · Airflow · FastAPI · NLP  
@@ -52,13 +52,13 @@ Five independent data products exploring labour markets, financial indicators, p
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="docs/projects/luxrisk-intelligence.md"><img src="assets/luxrisk.svg" width="100%" alt="02 — LuxRisk Intelligence. Macroeconomic and financial indicators. Planned."></a>
+<a href="docs/projects/luxrisk-intelligence.md"><img src="assets/luxrisk.svg?v=20261007" width="100%" alt="02 — LuxRisk Intelligence. Macroeconomic and financial indicators. Planned."></a>
 <p><strong>LuxRisk Intelligence</strong><br>Traceable economic indicators, country comparisons and scenario analysis for financial decision support.</p>
 <p><strong>Focus:</strong> Python · SQL · Power BI · forecasting</p>
 <a href="docs/projects/luxrisk-intelligence.md">Read the brief →</a>
 </td>
 <td width="50%" valign="top">
-<a href="docs/projects/pricepulse-ai.md"><img src="assets/pricepulse.svg" width="100%" alt="03 — PricePulse AI. Retail pricing and causal machine learning. Planned."></a>
+<a href="docs/projects/pricepulse-ai.md"><img src="assets/pricepulse.svg?v=20261007" width="100%" alt="03 — PricePulse AI. Retail pricing and causal machine learning. Planned."></a>
 <p><strong>PricePulse AI</strong><br>Price intelligence, demand modelling and carefully evaluated causal analysis, connected to model monitoring.</p>
 <p><strong>Focus:</strong> causal inference · ML · MLflow · GCP</p>
 <a href="docs/projects/pricepulse-ai.md">Read the brief →</a>
@@ -66,13 +66,13 @@ Five independent data products exploring labour markets, financial indicators, p
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="docs/projects/amlgraph.md"><img src="assets/amlgraph.svg" width="100%" alt="04 — AMLGraph. Explainable transaction-network investigations. Planned."></a>
+<a href="docs/projects/amlgraph.md"><img src="assets/amlgraph.svg?v=20261007" width="100%" alt="04 — AMLGraph. Explainable transaction-network investigations. Planned."></a>
 <p><strong>AMLGraph</strong><br>Transaction-network analysis and prioritised alerts, with an investigation view explaining each signal.</p>
 <p><strong>Focus:</strong> graph analytics · anomaly detection · synthetic data</p>
 <a href="docs/projects/amlgraph.md">Read the brief →</a>
 </td>
 <td width="50%" valign="top">
-<a href="docs/projects/data-platform-lab.md"><img src="assets/platform.svg" width="100%" alt="05 — Data Platform Lab. Reproducible cloud data infrastructure. Planned."></a>
+<a href="docs/projects/data-platform-lab.md"><img src="assets/platform.svg?v=20261007" width="100%" alt="05 — Data Platform Lab. Reproducible cloud data infrastructure. Planned."></a>
 <p><strong>Data Platform Lab</strong><br>A reproducible data platform with tested transformations, orchestration, lineage and operational runbooks.</p>
 <p><strong>Focus:</strong> AWS · dbt · Airflow · Terraform</p>
 <a href="docs/projects/data-platform-lab.md">Read the brief →</a>

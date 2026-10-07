@@ -1,6 +1,6 @@
 [← Profile](../../README.md) · [All projects](../README.md)
 
-![AMLGraph](../../assets/amlgraph.svg)
+![AMLGraph](../../assets/amlgraph.svg?v=20261007)
 
 # AMLGraph
 

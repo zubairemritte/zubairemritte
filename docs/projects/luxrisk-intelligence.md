@@ -1,6 +1,6 @@
 [← Profile](../../README.md) · [All projects](../README.md)
 
-![LuxRisk Intelligence](../../assets/luxrisk.svg)
+![LuxRisk Intelligence](../../assets/luxrisk.svg?v=20261007)
 
 # LuxRisk Intelligence
 

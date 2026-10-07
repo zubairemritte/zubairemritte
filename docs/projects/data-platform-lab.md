@@ -1,6 +1,6 @@
 [← Profile](../../README.md) · [All projects](../README.md)
 
-![Data Platform Lab](../../assets/platform.svg)
+![Data Platform Lab](../../assets/platform.svg?v=20261007)
 
 # Data Platform Lab
 

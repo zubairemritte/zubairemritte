@@ -1,6 +1,6 @@
 [← Profile](../../README.md) · [All projects](../README.md)
 
-![PricePulse AI](../../assets/pricepulse.svg)
+![PricePulse AI](../../assets/pricepulse.svg?v=20261007)
 
 # PricePulse AI
 

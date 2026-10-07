@@ -1,6 +1,6 @@
 [← Profile](../../README.md) · [All projects](../README.md)
 
-![CareerGraph Europe](../../assets/careergraph.svg)
+![CareerGraph Europe](../../assets/careergraph.svg?v=20261007)
 
 # CareerGraph Europe
 
