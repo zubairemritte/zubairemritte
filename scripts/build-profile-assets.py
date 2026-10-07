@@ -1,14 +1,14 @@
 """Generate the profile's SVG covers using Python's standard library.
 
 Run from any directory: python3 scripts/build-profile-assets.py
-Edit this source before regenerating the seven files in assets/.
+Edit this source before regenerating the seven files in assets/identity/.
 """
 
 from html import escape
 from pathlib import Path
 
 
-OUT = Path(__file__).resolve().parents[1] / "assets"
+OUT = Path(__file__).resolve().parents[1] / "assets" / "identity"
 PAPER = "#F4F0E7"
 INK = "#242D2A"
 MUTED = "#5E655E"
