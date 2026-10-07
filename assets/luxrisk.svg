@@ -1,5 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="680" height="290" viewBox="0 0 680 290" role="img" aria-labelledby="title desc">
-<title id="title">LuxRisk Intelligence — planned project</title>
-<desc id="desc">European macro &amp; financial risk. Product concept; implementation not yet delivered.</desc>
-<rect width="680" height="290" rx="16" fill="#EFF1E7"/><rect x="32" y="33" width="5" height="13" rx="2" fill="#1C423D"/><text x="47" y="44" fill="#1C423D" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1.6">02 / PLANNED</text><g color="#1C423D" opacity=".13"><g fill="none" stroke="currentColor" stroke-width="2"><circle cx="572" cy="165" r="68"/><circle cx="572" cy="165" r="46"/><path d="M 492 165 H 652 M 572 85 V 245 M 522 116 L 622 216 M 522 216 L 622 116"/><circle cx="572" cy="165" r="9" fill="currentColor"/></g></g><text x="31" y="112" fill="#1C423D" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="700" letter-spacing="-0.9">LuxRisk Intelligence</text><text x="33" y="154" fill="#1C423D" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" letter-spacing="-0.1">European macro &amp; financial risk</text><path d="M 32 202 H 461" stroke="#1C423D" stroke-opacity=".2"/><text x="33" y="245" fill="#1C423D" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.8">PYTHON / SQL / BI / FORECASTING</text><path d="M 601 44 H 632 V 75 M 631 45 L 601 75" fill="none" stroke="#1C423D" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="330" viewBox="0 0 680 330" role="img" aria-labelledby="title desc">
+<title id="title">02 — LuxRisk Intelligence</title>
+<desc id="desc">Macroeconomic &amp; financial indicators. Planned project; product brief available. The diagram illustrates the concept, not measured results.</desc>
+<rect x="0" y="0" width="680" height="330" fill="#F4F0E7" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="5" height="330" fill="#355D4A" stroke="none" stroke-width="1"/>
+<text x="31" y="35" fill="#355D4A" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="400" letter-spacing="0.65">02 / ECONOMIC INDICATORS</text>
+<text x="583" y="35" fill="#355D4A" font-family="'Courier New', Courier, monospace" font-size="12" font-weight="400" letter-spacing="0.65">PLANNED</text>
+<path d="M31 54H647" stroke="#C3BDB0" stroke-width="1"/>
+<text x="28" y="111" fill="#242D2A" font-family="Georgia, 'Times New Roman', serif" font-size="45" font-weight="400" letter-spacing="-1">LuxRisk Intelligence</text>
+<text x="31" y="146" fill="#242D2A" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" letter-spacing="0">Macroeconomic &amp; financial indicators</text>
+<text x="31" y="213" fill="#355D4A" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="400" letter-spacing="0">Compare countries.</text>
+<text x="31" y="244" fill="#355D4A" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="400" letter-spacing="0">Trace every indicator.</text>
+<rect x="468" y="177" width="174" height="84" fill="#F4F0E7" stroke="#355D4A" stroke-width="1.5"/>
+<path d="M468 205H642" stroke="#355D4A" stroke-width="1"/>
+<path d="M468 233H642" stroke="#355D4A" stroke-width="1"/>
+<path d="M573 177L573 261" stroke="#355D4A" stroke-width="1"/>
+<text x="478" y="197" fill="#355D4A" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="400" letter-spacing="0.65">SOURCE</text>
+<path d="M590 192H627" stroke="#355D4A" stroke-width="3"/>
+<text x="478" y="225" fill="#355D4A" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="400" letter-spacing="0.65">SERIES</text>
+<path d="M590 220H627" stroke="#355D4A" stroke-width="3"/>
+<text x="478" y="253" fill="#355D4A" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="400" letter-spacing="0.65">UNIT</text>
+<path d="M590 248H627" stroke="#355D4A" stroke-width="3"/>
+<path d="M31 282H647" stroke="#C3BDB0" stroke-width="1"/>
+<text x="31" y="310" fill="#242D2A" font-family="'Courier New', Courier, monospace" font-size="12.5" font-weight="400" letter-spacing="0.65">PYTHON / SQL / POWER BI</text>
 </svg>

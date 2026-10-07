@@ -1,5 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="680" height="290" viewBox="0 0 680 290" role="img" aria-labelledby="title desc">
-<title id="title">PricePulse AI — planned project</title>
-<desc id="desc">Retail pricing &amp; causal machine learning. Product concept; implementation not yet delivered.</desc>
-<rect width="680" height="290" rx="16" fill="#ECE9F3"/><rect x="32" y="33" width="5" height="13" rx="2" fill="#443752"/><text x="47" y="44" fill="#443752" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1.6">03 / PLANNED</text><g color="#443752" opacity=".13"><g fill="none" stroke="currentColor" stroke-width="2"><rect x="505" y="100" width="98" height="98" rx="20" transform="rotate(-14 554 149)"/><rect x="544" y="130" width="98" height="98" rx="20" transform="rotate(13 593 179)"/><circle cx="551" cy="145" r="9"/><path d="M 540 171 L 573 138 M 573 171 L 540 138"/></g></g><text x="31" y="112" fill="#443752" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="700" letter-spacing="-0.9">PricePulse AI</text><text x="33" y="154" fill="#443752" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" letter-spacing="-0.1">Retail pricing &amp; causal machine learning</text><path d="M 32 202 H 461" stroke="#443752" stroke-opacity=".2"/><text x="33" y="245" fill="#443752" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.8">CAUSAL ANALYSIS / ML / MLOPS</text><path d="M 601 44 H 632 V 75 M 631 45 L 601 75" fill="none" stroke="#443752" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="330" viewBox="0 0 680 330" role="img" aria-labelledby="title desc">
+<title id="title">03 — PricePulse AI</title>
+<desc id="desc">Retail pricing &amp; causal machine learning. Planned project; product brief available. The diagram illustrates the concept, not measured results.</desc>
+<rect x="0" y="0" width="680" height="330" fill="#F4F0E7" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="5" height="330" fill="#855B1D" stroke="none" stroke-width="1"/>
+<text x="31" y="35" fill="#855B1D" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="400" letter-spacing="0.65">03 / PRICING &amp; CAUSALITY</text>
+<text x="583" y="35" fill="#855B1D" font-family="'Courier New', Courier, monospace" font-size="12" font-weight="400" letter-spacing="0.65">PLANNED</text>
+<path d="M31 54H647" stroke="#C3BDB0" stroke-width="1"/>
+<text x="28" y="111" fill="#242D2A" font-family="Georgia, 'Times New Roman', serif" font-size="45" font-weight="400" letter-spacing="-1">PricePulse AI</text>
+<text x="31" y="146" fill="#242D2A" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" letter-spacing="0">Retail pricing &amp; causal machine learning</text>
+<text x="31" y="213" fill="#855B1D" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="400" letter-spacing="0">Observe the price.</text>
+<text x="31" y="244" fill="#855B1D" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="400" letter-spacing="0">Evaluate the effect.</text>
+<path d="M485 173H622V253L613 261L604 253L595 261L586 253L577 261L568 253L559 261L550 253L541 261L532 253L523 261L514 253L505 261L496 253L485 261Z" fill="#F4F0E7" stroke="#855B1D" stroke-width="1.5"/>
+<text x="500" y="196" fill="#855B1D" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="400" letter-spacing="0.65">PRICE</text>
+<path d="M500 204H607" stroke="#C3BDB0" stroke-width="1"/>
+<text x="500" y="224" fill="#855B1D" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="400" letter-spacing="0.65">DEMAND</text>
+<text x="500" y="247" fill="#855B1D" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="400" letter-spacing="0.65">EFFECT</text>
+<path d="M31 282H647" stroke="#C3BDB0" stroke-width="1"/>
+<text x="31" y="310" fill="#242D2A" font-family="'Courier New', Courier, monospace" font-size="12.5" font-weight="400" letter-spacing="0.65">CAUSAL ANALYSIS / ML / MLOPS</text>
 </svg>

@@ -1,4 +1,4 @@
-[← Profile](../../README.md) · [Roadmap](../portfolio-roadmap.md)
+[← Profile](../../README.md) · [All projects](../README.md)
 
 ![PricePulse AI](../../assets/pricepulse.svg)
 
@@ -53,7 +53,3 @@ The technical scope will be matched to the available data. No forecasting or opt
 | Is the product usable? | A repeatable pricing investigation from source data to a documented finding |
 
 **First release boundary:** a reliable price-intelligence workflow. Demand modelling and causal evaluation are subsequent releases gated by data suitability.
-
-## Pour l'expliquer en entretien
-
-« Je distingue trois besoins : comparer les prix, prévoir la demande et mesurer l'effet d'une décision. Les méthodes et les données ne sont pas les mêmes. Le projet doit rendre ces différences visibles et produire des résultats évaluables. »

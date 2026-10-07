@@ -1,11 +1,11 @@
-[← Profile](../../README.md) · [Roadmap](../portfolio-roadmap.md)
+[← Profile](../../README.md) · [All projects](../README.md)
 
 ![LuxRisk Intelligence](../../assets/luxrisk.svg)
 
 # LuxRisk Intelligence
 
-**European macro & financial risk analytics**  
-**Status:** planned; implementation follows a demonstrable CareerGraph Europe release.
+**Macroeconomic & financial indicators**  
+**Status:** planned; product scope and evaluation design available below.
 
 ## The business question
 
@@ -51,7 +51,3 @@ Any composite indicator will expose its components and weights. It will be label
 | Reproduction | One documented command sequence from ingestion to refreshed analytical tables |
 
 **First release boundary:** a small, well-documented set of countries and indicators with reliable ingestion and a useful BI report. Forecasts and scenarios follow once the historical data and baselines are validated.
-
-## Pour l'expliquer en entretien
-
-« Le projet doit aider un analyste à comparer des indicateurs économiques fiables. La valeur vient de la traçabilité, de la cohérence des définitions et de la capacité à expliquer une variation, puis à évaluer prudemment des prévisions. »

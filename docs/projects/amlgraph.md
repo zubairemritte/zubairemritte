@@ -1,4 +1,4 @@
-[← Profile](../../README.md) · [Roadmap](../portfolio-roadmap.md)
+[← Profile](../../README.md) · [All projects](../README.md)
 
 ![AMLGraph](../../assets/amlgraph.svg)
 
@@ -49,7 +49,3 @@ Report precision / recall and precision at a fixed review budget on the syntheti
 - A small evaluation report showing the effect of threshold and review-budget choices.
 
 **First release boundary:** synthetic data, transparent rules, graph investigation and a reproducible evaluation. Advanced graph learning follows only if it adds measurable value.
-
-## Pour l'expliquer en entretien
-
-« Le projet doit aider à comprendre et prioriser des alertes. Les transactions sont synthétiques, ce qui permet de connaître certains scénarios injectés et d'évaluer les méthodes, tout en expliquant les limites de cette simulation. »

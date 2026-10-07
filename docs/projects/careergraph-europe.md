@@ -1,10 +1,10 @@
-[← Profile](../../README.md) · [Roadmap](../portfolio-roadmap.md)
+[← Profile](../../README.md) · [All projects](../README.md)
 
 ![CareerGraph Europe](../../assets/careergraph.svg)
 
 # CareerGraph Europe
 
-**France & Luxembourg job market intelligence**  
+**Job market & skills intelligence**  
 **Status:** first planned build; [repository initialized](https://github.com/zubairemritte/careergraph-europe). The capabilities below are the product scope, not an available demo.
 
 ## The business question
@@ -55,9 +55,3 @@ Salary figures will retain currency, period and whether they were explicitly sta
 | Product | A reproducible demonstration of one complete country / role analysis and a labelled sample CV |
 
 **First release boundary:** a working path from an authorised source to a validated market view. A France-only working slice may precede verified Luxembourg coverage; country labels will reflect the actual data available.
-
-## Pour l'expliquer en entretien
-
-« L'objectif est de transformer des offres d'emploi hétérogènes en informations comparables : compétences demandées, métiers, lieux et écarts avec un profil. La difficulté est autant la qualité et la couverture des données que l'extraction des compétences. »
-
-This describes the planned problem and approach. The final interview account will be updated with the implementation, difficulties and results actually obtained.

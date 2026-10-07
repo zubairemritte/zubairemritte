@@ -1,4 +1,4 @@
-[← Profile](../../README.md) · [Roadmap](../portfolio-roadmap.md)
+[← Profile](../../README.md) · [All projects](../README.md)
 
 ![Data Platform Lab](../../assets/platform.svg)
 
@@ -51,7 +51,3 @@ Include a normal batch, a duplicate batch, a late-arriving record and a delibera
 The deployment budget and access requirements will be agreed before provisioning. Secrets will be supplied through appropriate environment or secret-management configuration, not committed to the repository.
 
 **First release boundary:** one complete workload with reproducible transformations, quality gates and a recovery demonstration. Larger-scale claims require separate measurement.
-
-## Pour l'expliquer en entretien
-
-« Le projet montre comment rendre un traitement de données exploitable : le déployer, le relancer sans créer de doublons, détecter un problème, retrouver son origine et documenter la reprise. »

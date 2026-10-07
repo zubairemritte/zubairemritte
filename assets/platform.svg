@@ -1,5 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="680" height="290" viewBox="0 0 680 290" role="img" aria-labelledby="title desc">
-<title id="title">Data Platform Lab — planned project</title>
-<desc id="desc">Reproducible cloud data infrastructure. Product concept; implementation not yet delivered.</desc>
-<rect width="680" height="290" rx="16" fill="#E5EDF3"/><rect x="32" y="33" width="5" height="13" rx="2" fill="#284658"/><text x="47" y="44" fill="#284658" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1.6">05 / PLANNED</text><g color="#284658" opacity=".13"><g fill="none" stroke="currentColor" stroke-width="2"><path d="M 490 131 L 568 91 L 645 131 L 568 171 Z M 490 168 L 568 208 L 645 168 M 490 205 L 568 245 L 645 205"/><path d="M 490 132 V 207 M 645 132 V 207 M 568 171 V 245" stroke-dasharray="4 8"/></g></g><text x="31" y="112" fill="#284658" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="700" letter-spacing="-0.9">Data Platform Lab</text><text x="33" y="154" fill="#284658" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" letter-spacing="-0.1">Reproducible cloud data infrastructure</text><path d="M 32 202 H 461" stroke="#284658" stroke-opacity=".2"/><text x="33" y="245" fill="#284658" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.8">AWS / DBT / AIRFLOW / TERRAFORM</text><path d="M 601 44 H 632 V 75 M 631 45 L 601 75" fill="none" stroke="#284658" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="330" viewBox="0 0 680 330" role="img" aria-labelledby="title desc">
+<title id="title">05 — Data Platform Lab</title>
+<desc id="desc">Reproducible cloud data infrastructure. Planned project; product brief available. The diagram illustrates the concept, not measured results.</desc>
+<rect x="0" y="0" width="680" height="330" fill="#F4F0E7" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="5" height="330" fill="#365D78" stroke="none" stroke-width="1"/>
+<text x="31" y="35" fill="#365D78" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="400" letter-spacing="0.65">05 / DATA OPERATIONS</text>
+<text x="583" y="35" fill="#365D78" font-family="'Courier New', Courier, monospace" font-size="12" font-weight="400" letter-spacing="0.65">PLANNED</text>
+<path d="M31 54H647" stroke="#C3BDB0" stroke-width="1"/>
+<text x="28" y="111" fill="#242D2A" font-family="Georgia, 'Times New Roman', serif" font-size="45" font-weight="400" letter-spacing="-1">Data Platform Lab</text>
+<text x="31" y="146" fill="#242D2A" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" letter-spacing="0">Reproducible cloud data infrastructure</text>
+<text x="31" y="213" fill="#365D78" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="400" letter-spacing="0">Load. Check. Serve.</text>
+<text x="31" y="244" fill="#365D78" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="400" letter-spacing="0">Recover with confidence.</text>
+<rect x="463" y="176" width="130" height="25" fill="#F4F0E7" stroke="#365D78" stroke-width="1.5"/>
+<rect x="463" y="176" width="6" height="25" fill="#365D78" stroke="none" stroke-width="1"/>
+<text x="482" y="194" fill="#365D78" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="400" letter-spacing="0.65">LOAD</text>
+<rect x="481" y="206" width="130" height="25" fill="#F4F0E7" stroke="#365D78" stroke-width="1.5"/>
+<rect x="481" y="206" width="6" height="25" fill="#365D78" stroke="none" stroke-width="1"/>
+<text x="500" y="224" fill="#365D78" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="400" letter-spacing="0.65">TEST</text>
+<rect x="499" y="236" width="130" height="25" fill="#F4F0E7" stroke="#365D78" stroke-width="1.5"/>
+<rect x="499" y="236" width="6" height="25" fill="#365D78" stroke="none" stroke-width="1"/>
+<text x="518" y="254" fill="#365D78" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="400" letter-spacing="0.65">SERVE</text>
+<path d="M31 282H647" stroke="#C3BDB0" stroke-width="1"/>
+<text x="31" y="310" fill="#242D2A" font-family="'Courier New', Courier, monospace" font-size="12.5" font-weight="400" letter-spacing="0.65">AWS / DBT / AIRFLOW / TERRAFORM</text>
 </svg>
