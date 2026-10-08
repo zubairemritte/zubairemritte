@@ -134,7 +134,7 @@ def build_careergraph():
         rect(0, 0, 1440, 338),
         rect(0, 0, 8, 338, BRICK),
         label(56, 43, "01 / LABOUR MARKET INTELLIGENCE", BRICK, 17),
-        label(1160, 43, "FIRST PLANNED BUILD", BRICK, 15),
+        label(1160, 43, "LOCAL RELEASE v0.2", BRICK, 15),
         line(56, 62, 1384, 62),
         text(50, 157, "CareerGraph Europe", 75, INK, SERIF, -1.8),
         text(56, 211, "Understand demand. Identify the skill gap.", 27),
@@ -142,13 +142,13 @@ def build_careergraph():
         *skills_index(),
         line(56, 277, 1384, 277),
         label(56, 314, "DATA ENGINEERING / NLP / ANALYTICS", INK, 16),
-        label(1162, 314, "BRIEF AVAILABLE", BRICK, 16),
+        label(1162, 314, "CODE & DOCS", BRICK, 16),
     ]
     save(
-        "careergraph.svg", 1440, 338,
+        "careergraph-v02.svg", 1440, 338,
         "01 — CareerGraph Europe",
-        "First planned build: labour-market and skills intelligence. "
-        "An index of roles, skills and opportunities illustrates the product scope. Product brief available.",
+        "Local release 0.2: labour-market and skills intelligence. "
+        "Traceable skill mentions, country filters and explicit source coverage. Code and documentation available.",
         cover,
     )
 

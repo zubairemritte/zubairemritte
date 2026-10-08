@@ -41,13 +41,13 @@ Built multi-source ETL workflows, **Power BI models and DAX measures**, with che
 
 ## Projects
 
-Five independent data products exploring labour markets, financial indicators, pricing, transaction networks and reliable infrastructure. **Product briefs are available; implementation starts with CareerGraph Europe.** Demos and results will be added as the projects are delivered.
+Five independent data products exploring labour markets, financial indicators, pricing, transaction networks and reliable infrastructure. **CareerGraph Europe has a working local first release.** The other four projects have product briefs; implementations will follow one at a time.
 
-<a href="docs/projects/careergraph-europe.md"><img src="assets/identity/careergraph.svg" width="100%" alt="01 — CareerGraph Europe. Job market and skills intelligence. First planned build; product brief available."></a>
+<a href="docs/projects/careergraph-europe.md"><img src="assets/identity/careergraph-v02.svg" width="100%" alt="01 — CareerGraph Europe. Job market and skills intelligence. Working local first release; code and technical documentation available."></a>
 
-**CareerGraph Europe** — Which skills are employers asking for, and how does a candidate's profile compare? A planned platform combining job-data pipelines, skill extraction, market analysis and an explainable CV-to-market comparison.  
-**Target stack:** Python · SQL · BigQuery · dbt · Airflow · FastAPI · NLP  
-[Explore the product brief →](docs/projects/careergraph-europe.md) · [View the initialized repository →](https://github.com/zubairemritte/careergraph-europe)
+**CareerGraph Europe** — Which additional skill would cover more of the detected skill sets in an observed job sample? A working local application with European country filters, traceable skill mentions, collection audits and separate official economic context. Live offer coverage is explicitly reported.  
+**Implemented:** Python · SQL · SQLite · FastAPI · Poetry · typed connectors · traceable skill extraction  
+[Read the project overview →](docs/projects/careergraph-europe.md) · [Explore the code and documentation →](https://github.com/zubairemritte/careergraph-europe)
 
 <table>
 <tr>

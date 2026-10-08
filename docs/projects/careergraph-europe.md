@@ -1,57 +1,59 @@
 [← Profile](../../README.md) · [All projects](../README.md)
 
-![CareerGraph Europe](../../assets/identity/careergraph.svg)
+![CareerGraph Europe](../../assets/identity/careergraph-v02.svg)
 
 # CareerGraph Europe
 
-**Job market & skills intelligence**  
-**Status:** first planned build; [repository initialized](https://github.com/zubairemritte/careergraph-europe). The capabilities below are the product scope, not an available demo.
+**Skills, with evidence.**  
+**Status:** working local release 0.2. [Code, quickstart and full technical documentation](https://github.com/zubairemritte/careergraph-europe).
 
 ## The business question
 
-A candidate sees hundreds of job titles, inconsistent skill descriptions and uneven salary information. Which skills are repeatedly requested for a target role, and which opportunities deserve closer attention?
+Given a selected job-offer sample and a current skill set, which additional skill would complete the detected skill set of more offers?
 
-The product will help candidates and analysts explore the **observed job market**, with explicit coverage limits for each source, country and period.
+The product connects labour-market analysis with data-quality controls and an explainable user decision. Each result is conditional on its source, country, role, publication window and extraction method.
 
-## The intended user journey
+## What the first release does
 
-1. Choose a country, role family, location and contract type.
-2. Inspect employer demand, frequently co-occurring skills and available salary information.
-3. Open the underlying offers and see the source, collection date and normalised fields.
-4. Optionally compare a CV's extracted skills with the selected offer set.
-5. Review the matched evidence, missing skills and suggested learning priorities.
+- Configures 16 European countries through an ISO country variable, independently of the source connector.
+- Collects a bounded real offer sample through a verified public JobTech connector.
+- Retrieves official Eurostat vacancy statistics as separate economic context.
+- Validates records, removes conservative duplicates and retains dated collection audits.
+- Extracts 24 curated skill labels with evidence snippets and versioned aliases.
+- Calculates frequencies, co-occurrence relationships and additional coverage from one skill.
+- Exposes the analysis through a read-only FastAPI service and an English browser interface.
+- Provides a deterministic offline demonstration, eight small fixture checks and strict static type checking.
+- Uses documented functions, typed data contracts, provider classes and Poetry with locked versions.
 
-## Professional features in scope
+The interface uses explicit skill selection. CV parsing, semantic extraction and a hosted production service are not implemented.
 
-- **Source-aware ingestion:** connector configuration, pagination, retries, rate-limit handling and incremental collection.
-- **Historical analysis:** dated snapshots, offer identifiers, deduplication and an explicit policy for updates and expired offers.
-- **A useful data model:** offers, sources, employers, locations, role families, skills and collection runs; analytical tables for market summaries.
-- **Multilingual skill extraction:** a documented vocabulary and aliases, with an annotated evaluation sample before introducing more complex NLP.
-- **Skill relationships:** co-occurrence counts, denominators and minimum sample sizes, so rare pairs do not dominate the graph.
-- **Explainable CV comparison:** visible matched evidence and editable extracted skills. Scores describe coverage of a defined offer sample.
-- **Useful BI:** country / role filters, data freshness, completeness indicators and source drill-down.
-- **Operational visibility:** run logs, failed-source reporting, quality checks and a reproducible deployment path.
+## Coverage is part of the result
 
-## Proposed architecture
+The product is designed for major European markets. A country variable selects one of 16 configured ISO alpha-2 codes independently of the provider.
 
-Python connectors collect source records into raw storage. SQL / dbt transformations create clean analytical tables in BigQuery. Airflow is a candidate orchestrator once scheduled dependencies justify it. A FastAPI layer and a dashboard expose the market analysis and optional CV comparison.
+Datasets are collected through authorised public APIs from established European employment services. Every source must have verified access, reuse terms and workplace coverage before activation. Official European statistics provide separate economic context.
 
-Docker, GitHub Actions and infrastructure configuration are planned for reproducible delivery. An initial local execution path will make development and demonstrations possible before cloud deployment.
+Actual offer coverage currently comes from the verified JobTech connector for Swedish workplaces. Other countries remain visibly unconnected until their sources have been validated and implemented. A separately labelled synthetic demo exercises all 16 country filters.
 
-## Data and access decisions to resolve first
+Eurostat availability is tracked by country and quarter. The broad vacancy rate is not interpreted as a data-professional vacancy rate.
 
-France Travail is the first candidate source for French job offers. The Luxembourg source must be validated separately for coverage, access, licensing and permitted reuse; an openly visible website is not assumed to provide a reusable API. Each connector will record what it can actually collect.
+## An explainable calculation
 
-Salary figures will retain currency, period and whether they were explicitly stated. Missing salaries will not become zero. Market comparisons will explain source and sampling differences. Uploaded CVs will not be committed to the repository; the initial design should avoid retaining them by default.
+If the selected skills are Python and SQL, an offer mentioning Python, SQL and dbt has one missing detected skill: dbt. Adding dbt completes that detected set. An offer still missing both Docker and AWS is not covered by adding only Docker.
 
-## Evaluation and release evidence
+The score counts additional offers in the observed sample. It is not a hiring probability, a judgement of competence or a causal estimate.
 
-| Area | Evidence to produce |
-| --- | --- |
-| Ingestion | Repeatable runs, deduplication checks, source counts, failures and freshness |
-| Skill extraction | Precision / recall on a documented, manually reviewed sample |
-| Market analysis | Counts, denominators, time range and source coverage for each view |
-| CV comparison | Tests for score calculation and explanations linked to the extracted evidence |
-| Product | A reproducible demonstration of one complete country / role analysis and a labelled sample CV |
+## Engineering choices
 
-**First release boundary:** a working path from an authorised source to a validated market view. A France-only working slice may precede verified Luxembourg coverage; country labels will reflect the actual data available.
+**Implemented:** Python, SQL, SQLite, FastAPI, browser-native HTML/CSS/JavaScript, Poetry, exact dependency versions, typed connector classes, automated checks and CI configuration. A Docker recipe is included; the release report records its verification status.
+
+A successful run is committed atomically. Failed refreshes do not replace the last successful sample. Raw live offer bodies and personal preparation files are excluded from public GitHub content.
+
+The [architecture decisions](https://github.com/zubairemritte/careergraph-europe/blob/main/docs/decisions.md) explain why the first release starts with a small reproducible system and an inspectable extraction baseline.
+
+## Inspect the evidence
+
+- [Run the project](https://github.com/zubairemritte/careergraph-europe/blob/main/docs/quickstart.md)
+- [Read the formulas and limits](https://github.com/zubairemritte/careergraph-europe/blob/main/docs/methodology.md)
+- [Check the source register](https://github.com/zubairemritte/careergraph-europe/blob/main/docs/sources.md)
+- [Review executed checks and release limitations](https://github.com/zubairemritte/careergraph-europe/blob/main/docs/release-0.2.md)
