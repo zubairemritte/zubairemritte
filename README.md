@@ -45,7 +45,7 @@ Five independent data products exploring labour markets, financial indicators, p
 
 <a href="docs/projects/careergraph-europe.md"><img src="assets/identity/careergraph-v02.svg" width="100%" alt="01 — CareerGraph Europe. Job market and skills intelligence. Working local first release; code and technical documentation available."></a>
 
-**CareerGraph Europe** — Which additional skill would cover more of the detected skill sets in an observed job sample? A working local application with European country filters, traceable skill mentions, collection audits and separate official economic context. Live offer coverage is explicitly reported.  
+**CareerGraph Europe** — Which additional skill would complete more detected skill sets in an observed job sample? A country-configurable application designed for European employment-service data, with traceable skill evidence and auditable collection runs. Official statistics add economic context; the source register records actual live coverage.  
 **Implemented:** Python · SQL · SQLite · FastAPI · Poetry · typed connectors · traceable skill extraction  
 [Read the project overview →](docs/projects/careergraph-europe.md) · [Explore the code and documentation →](https://github.com/zubairemritte/careergraph-europe)
 

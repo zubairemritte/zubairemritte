@@ -16,8 +16,8 @@ The product connects labour-market analysis with data-quality controls and an ex
 ## What the first release does
 
 - Configures 16 European countries through an ISO country variable, independently of the source connector.
-- Collects a bounded real offer sample through a verified public JobTech connector.
-- Retrieves official Eurostat vacancy statistics as separate economic context.
+- Collects bounded offer samples through verified public employment-service APIs.
+- Retrieves official European vacancy statistics as separate economic context.
 - Validates records, removes conservative duplicates and retains dated collection audits.
 - Extracts 24 curated skill labels with evidence snippets and versioned aliases.
 - Calculates frequencies, co-occurrence relationships and additional coverage from one skill.
@@ -33,9 +33,9 @@ The product is designed for major European markets. A country variable selects o
 
 Datasets are collected through authorised public APIs from established European employment services. Every source must have verified access, reuse terms and workplace coverage before activation. Official European statistics provide separate economic context.
 
-Actual offer coverage currently comes from the verified JobTech connector for Swedish workplaces. Other countries remain visibly unconnected until their sources have been validated and implemented. A separately labelled synthetic demo exercises all 16 country filters.
+Actual offer coverage currently has one verified employment-service adapter. Its workplace countries, access rules and reuse terms are recorded in the [source register](https://github.com/zubairemritte/careergraph-europe/blob/main/docs/sources.md). Further markets become available as their sources are validated and implemented. A separately labelled synthetic demo exercises all 16 country filters.
 
-Eurostat availability is tracked by country and quarter. The broad vacancy rate is not interpreted as a data-professional vacancy rate.
+Official-statistics availability is tracked by country and quarter. The broad vacancy rate is not interpreted as a data-professional vacancy rate.
 
 ## An explainable calculation
 
